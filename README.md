@@ -35,7 +35,7 @@ downloaddb.py:
 This script, named downloaddb.py, exports the contents of a DynamoDB table to a CSV file using the Boto3 library for AWS DynamoDB.  
 
 writebatch.py:  
-Example usage of dynamodbClient.batch_write_item() on script named writebatch.py, writes data from a CSV file to an AWS DynamoDB table in batches using the Boto3 library on a microgrid related DB.  the script implements an exponential backoff strategy to avoid overwhelming the system, this strategy involves retrying the write operation after a certain period of time, with each subsequent retry increasing the wait time exponentially.
+Example usage of dynamodbClient.batch_write_item() on script named writebatch.py, writes data from a CSV file to an AWS DynamoDB table in batches using the Boto3 library on a microgrid related DB.  the script implements an exponential backoff strategy to avoid overwhelming the system, this strategy involves retrying the write operation after a certain period of time, with each subsequent retry increasing the wait time exponentially. 
 
 Note  
 Ensure that the AWS credentials provided have sufficient permissions to describe the specified DynamoDB table.
