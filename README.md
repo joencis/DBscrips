@@ -4,7 +4,7 @@ Python's boto3 library scripts for DynamoDB data migration
 Scripts README
 This script fetches the schema (attribute definitions and key schema) of a DynamoDB table using the Boto3 library for AWS DynamoDB.
 
-Prerequisites
+Prerequisites  
 
 Python 3.x installed on your system.
 
