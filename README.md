@@ -14,7 +14,7 @@ Configuration
 
 Before running the script, you need to provide the necessary configuration parameters:
   
-table_name: The name of the DynamoDB table from which you want to fetch the schema.  
+table_name: The name of the DynamoDB table from which you want to fetch the schema.    
 region_name: The AWS region in which the DynamoDB table is located.  
 access_key_id: Your AWS access key ID with appropriate permissions to access the DynamoDB table.  
 secret_access_key: Your AWS secret access key associated with the access key ID.  
