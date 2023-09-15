@@ -5,9 +5,13 @@ Scripts README
 This script fetches the schema (attribute definitions and key schema) of a DynamoDB table using the Boto3 library for AWS DynamoDB.
 
 Prerequisites
+
 Python 3.x installed on your system.
+
 Boto3 library installed. You can install it using pip install boto3.
+
 Configuration
+
 Before running the script, you need to provide the necessary configuration parameters:
 
 table_name: The name of the DynamoDB table from which you want to fetch the schema.
