@@ -30,8 +30,10 @@ The attribute definitions and key schema will be printed to the console.
 
 getschema.py:  
 This script, getschema.py, is a Python script that fetches the schema (attribute definitions and key schema) of a DynamoDB table using the Boto3 library for AWS DynamoDB.  
+
 downloaddb.py:  
 This script, named downloaddb.py, exports the contents of a DynamoDB table to a CSV file using the Boto3 library for AWS DynamoDB.  
+
 writebatch.py:  
 Example usage of dynamodbClient.batch_write_item() on script named writebatch.py, writes data from a CSV file to an AWS DynamoDB table in batches using the Boto3 library on a microgrid related DB.  
 
