@@ -14,11 +14,11 @@ Configuration
 
 Before running the script, you need to provide the necessary configuration parameters:
   
-table_name: The name of the DynamoDB table from which you want to fetch the schema.
-region_name: The AWS region in which the DynamoDB table is located.
-access_key_id: Your AWS access key ID with appropriate permissions to access the DynamoDB table.
-secret_access_key: Your AWS secret access key associated with the access key ID.
-Make sure to replace the placeholder values in the script with the appropriate values for your AWS environment.
+table_name: The name of the DynamoDB table from which you want to fetch the schema.  
+region_name: The AWS region in which the DynamoDB table is located.  
+access_key_id: Your AWS access key ID with appropriate permissions to access the DynamoDB table.  
+secret_access_key: Your AWS secret access key associated with the access key ID.  
+Make sure to replace the placeholder values in the script with the appropriate values for your AWS environment.  
   
 Usage  
 Save the script in a Python file (e.g., fetch_dynamodb_schema.py).
